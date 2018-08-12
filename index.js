@@ -18,3 +18,12 @@ function inc(n) {
   var x = 1 
   return x += n 
 }
+
+function dec(n) {
+  var x = 1 
+  return x -+ n 
+}
+
+function makeInt(n) {
+  parseInt('n', 10)
+}
