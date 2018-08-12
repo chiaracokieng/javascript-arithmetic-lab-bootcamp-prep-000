@@ -21,9 +21,10 @@ function inc(n) {
 
 function dec(n) {
   var x = 1 
-  return x -+ n 
+  return n -= 1 
 }
 
 function makeInt(n) {
+  var n = 10
   parseInt('n', 10)
 }
