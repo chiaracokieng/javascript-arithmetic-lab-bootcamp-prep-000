@@ -14,11 +14,3 @@ function divide(a, b) {
   return a / b 
 }
 
-function inc(n) {
-  return 1 + n 
-}
-
-function dec(n) {
-  return n - 1 
-}
-
